@@ -1,7 +1,9 @@
-# 该版本就是在源代码的基础上手写了LSTM
-# 改进的部分为TextLSTM的init和forwa函数
-# 但是在该过程中LSTM的传播过程是串行的
-# 每一个batch的每一个句子都是串行训练，后续会进行改进
+”“”
+该版本就是在源代码的基础上手写了LSTM
+改进的部分为TextLSTM的init和forwa函数
+但是在该过程中LSTM的传播过程是串行的
+每一个batch的每一个句子都是串行训练，后续会进行改进
+“”“
 import os
 import math
 import torch
